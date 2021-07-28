@@ -1,0 +1,59 @@
+/* ------------------------------------ *\
+                    Fonts
+\* ------------------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* ------------------------------------ *\
+                Utilities
+\* ------------------------------------ */
+
+ul,li {
+    list-style-type: none !important;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* ------------------------------------ *\
+            Header Section CSS
+\* ------------------------------------ */
+
+/* Banner Part CSS */
+
+.banner-bg {
+    background: #264653;
+}
+
+.banner-btn {
+    background: #E76F51 !important;
+    border: #E76F51 !important;
+}
+
+/* ------------------------------------ *\
+            Main Section CSS
+\* ------------------------------------ */
+
+/* Feature Bikes Section CSS */
+
+.feature-gray-bike {
+    filter: grayscale(100%);
+}
+
+/* Clients Section CSS */
+
+.card-star-clint,
+.client-headline {
+    color: #E76F51;
+}
+
+.client-name {
+    color: #23A6F0;
+}
+
+.faq-accordion:not(.collapsed) {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 0 0 !important;
+}
